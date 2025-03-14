@@ -1,6 +1,6 @@
 # Classpath-Generator
 Classpath Generator for JDLTS Gradle Project.
-This will automatically index *.jar files and then add them to the .classpath file.
+This will automatically index *.jar files and then add them to the .classpath file after build or assemble Debug android project
 
 ## Tutorial
 
@@ -18,10 +18,12 @@ This will automatically index *.jar files and then add them to the .classpath fi
   ```sh
   gradle build
   ```
-  atau
+  or
   ```sh
   gradle assembleDebug
   ```
+  without it, *.jar will not be generated, and this script won't work either.
+  
 * If you are using Acode, you must close the project and close your application before executing this script.
   This is to prevent the .classpath file from being lost when jdtls is run.
 

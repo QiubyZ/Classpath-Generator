@@ -13,7 +13,9 @@ This will automatically index *.jar files and then add them to the .classpath fi
    ![example](./Screenshot_20250314-214401.png)
 3. Open your project with JDTLS language Server
    ![example](./Screenshot_20250314-214829.png)
-
+4. Autocomplete will be Detected
+   ![example](Screenshot_20250314-220649.png)
+   
 * Make sure you have built your project first before using this script,such as using commands:
   ```sh
   gradle build
